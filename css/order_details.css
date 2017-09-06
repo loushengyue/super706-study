@@ -1,0 +1,71 @@
+.title{margin:16px 0;}
+.title p{font:14px'微软雅黑';color:#2d2d2d;}
+.title p a:hover{color:#f81010;}
+.trading{margin:0 auto;}
+.trading .trading-title{}
+.trading .trading-title li{float:left;width:146px;text-align: center;margin:0 45px;}
+.trading .trading-title li a{font:14px'微软雅黑';color:#121212;letter-spacing:2px;}
+.trading .progress-bar{margin:23px 0;position:relative;}
+.trading .progress-bar li{float:left;width:146px;text-align: center;margin:0 45px;}
+.trading .progress-bar li a{display:inline-block;width:30px;height:30px;background:#b7b7b7;
+                               border-radius:50%;position:relative;}
+.trading .progress-bar li a .serial-number{display:inline-block;width:18px;height:18px;
+                               border-radius:50%;position:absolute;top:0;left:0;bottom:0;right:0;margin:auto;
+                               font:14px'微软雅黑';color:#fff;font-weight:bold;line-height:18px;}
+.trading .progress-bar .active a .serial-number{background-color:#009c4e;}
+.trading .progress-bar .active a .serial-number span{width:18px;height:18px;color:transparent;background:url(../img/order_details_02.png) no-repeat center;}
+.trading .progress-bar li:first-child+li a .serial-number span{background-color:#009c4e;}
+.trading .progress-bar li:first-child+li a .serial-number span{width:18px;height:18px;color:transparent;background:url(../img/order_details_02.png) no-repeat center;}
+.trading .progress-bar .on a .serial-number{background-color:#009c4e;}
+.trading .line{width:940px;z-index:-2;border-top:7px solid #dbdbdb;position:relative;left:0;right:0;margin:-46px auto 0;}
+.trading .line li{padding:0 117px;margin-top:-21px;width:1px;height:3px;float:left;/*position:absolute;*//*z-index:100;top:-5px;*/}
+.trading .line li:first-child{padding-left:0;}
+.trading .line li:first-child+li{background:#009c4e;}
+.trading .line li:first-child+li+li{background:#009c4e;}
+.trading .line li:first-child+li+li+li{background:#009c4e;}
+.trading .line .active,.trading .line .on{background:#009c4e;}
+.trading .trading-time{margin:18px 0 50px;}
+.trading .trading-time li{float:left;width:146px;margin:0 49px;font:14px'微软雅黑';color:#b7b7b7;}
+
+.order-details{border:1px solid #b7b7b7;overflow: hidden;margin-bottom:50px;}
+.order-details .details-left{float:left;width:376px;border-right:1px solid #b7b7b7;}
+.order-details .details-left .details-title{background:#f3f3f3;border-bottom:1px solid #b7b7b7;padding:15px 26px;font:16px'微软雅黑';color:#121212;}
+.details-left .order-information{padding:28px 26px 15px;}
+.details-left .order-information h3{font:14px/24px'微软雅黑';color:#2d2d2d;float:left;}
+.details-left .order-information p{float:left;font:14px/24px'微软雅黑';color:#2d2d2d;width:208px;}
+.details-left .order-information p span{color:#ef2323;}
+.details-left .order-information .serial-number{margin:24px 0 8px;}
+.details-left .order-information .number{margin:24px 0 8px;}
+.order-details .details-right{float:left;padding:52px 0 40px 84px;}
+.details-right .order-status{margin-left:0;padding:20px 0 20px 85px;background:url(../img/order_details_03.png) no-repeat left center;}
+.details-right p{font:14px/28px'微软雅黑';color:#121212;width:428px;margin-left:122px;}
+.details-right p:nth-of-type(4){margin-left:168px;}
+.details-right p span{font:14px/28px'微软雅黑';color:#ef2323;}
+h4{font:16px/40px'微软雅黑';color:#121212;font-weight:bold;}
+table{margin-bottom:26px;}
+table tr th{background:#e9e9e9;height:48px;border:none;font:14px'微软雅黑';color:#121212;}
+table tr td{border-bottom:1px solid #b7b7b7;overflow:hidden;height:127px;line-height: 127px;}
+table tr td:first-child{width:420px;}
+table tr td:first-child+td{width:322px;font:14px'微软雅黑';color:#ef2323;text-align: center;}
+table tr td:first-child+td+td{width:106px;font:14px'微软雅黑';color:#ef2323;text-align:center;}
+table tr td:first-child+td+td+td{width:50px;font:14px'微软雅黑';color:#ef2323;text-align:center;}
+table tr td:first-child+td+td+td+td{font:14px'微软雅黑';color:#ef2323;text-align:center;}
+table tr td:first-child+td+td input{width:29px;height:23px;font:14px'微软雅黑';color:#121212;border:none;text-align:center;}
+table tr td a{float:left;display:inline-block;margin:2px 8px 0 46px;text-align:center;width:80px;height:80px;border-bottom:1px solid #b7b7b7;border-top:2px solid #b7b7b7;border-right:1px solid #b7b7b7;border-left:2px solid #b7b7b7;}
+table tr td a img{display:inline-block;;margin-top:1px;}
+table tr td p{margin-left:6px;font:14px/24px'微软雅黑';color:#121212;width:358px;}
+
+.pro-price-details .price-details{text-align:right;margin-right:26px;}
+.pro-price-details .price-details p{font:14px/33px'微软雅黑';color:#121212;}
+.pro-price-details .price-details p span{display:inline-block;width:100px;color:#ef2323;}
+
+.page{margin:30px 0 0 32%;overflow:hidden;}
+.page li{margin-right:5px;float:left;padding:12px 14px;border:1px solid #b7b7b7;}
+.page li a{font:14px'微软雅黑';color:#b7b7b7;}
+.page li:hover,.page .on{background:#ef2323;}
+.page li:hover a,.page .on a{color:#fff;}
+.page li:first-child{margin-right:14px;}
+.page li:first-child+li+li+li+li+li+li+li{margin-right:0;}
+.page li:first-child+li+li+li+li+li+li+li+li{border:none;margin-right:0;padding:0 7px;height:48px;background:url(../img/page_03.png) no-repeat center center;}
+.page li:first-child+li+li+li+li+li+li+li+li+li a{padding-right:24px;background:url(../img/page_02.png) no-repeat right center;}
+.page li:first-child a{padding-left:24px;background:url(../img/page_01.png) no-repeat left center;}

@@ -1,0 +1,261 @@
+img{cursor:pointer;}
+/*banner*/
+.banner {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative; }
+
+.banner ul {
+    width: 10000px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    /*transition:all 1s;
+    -webkit-transition:all 1.2s;*/
+    /*z-index:-999;*/ }
+
+.banner ul li {  float: left; }
+.banner ul a {  display: block; }
+.banner ul img {  width: 100%; height:500px;}
+.banner .banBtn {  width: 132px;  height: 8px;  position: absolute;  bottom: 20px;  left: 50%;  margin-left: -66px; }
+.banner .banBtn a:first-child {  margin-left:0; }
+.banner .banBtn a {  display: inline-block;  height: 26px;  width: 26px;
+                 margin-left: 8px;  float: left;  background:url(../img/banner_icon2.png) no-repeat center center; }
+.banner .banBtn .active { background:url(../img/banner_icon1.png) no-repeat center center; }
+.banner .btn_pre {  display: block;  width: 54px;  height: 104px;background-size: 54px 104px;
+    position: absolute;left: 138px;  top: 158px;  top: 50%;  margin-top: -72px; }
+.banner .btn_pre:hover {  cursor: pointer; }
+.banner .btn_nex {  display: block;  width: 54px;  height: 104px;
+                 position: absolute;  right: 138px;  top: 50%;  margin-top: -72px; }
+.banner .btn_nex:hover {  cursor: pointer; }
+/*banner end*/
+
+.pro-img{margin-top:40px;}
+.pro-img li{float:left;margin-left:26px;width:280px;height:349px;text-align: center;}
+.pro-img li h3{margin-top:32px;font:26px'微软雅黑';color:#273680;}
+.pro-img li p{font:18px'微软雅黑';color:#fff;}
+.pro-img li img{width:205px;}
+.pro-img li:first-child img{margin-top:45px;}
+.pro-img li:first-child+li h3{color:#1e5980;}
+.pro-img li:first-child+li+li+li h3{color:#0d6255;}
+.pro-img li:first-child+li img{margin-top:78px;}
+.pro-img li:first-child+li+li img{width:155px;margin-top:32px;}
+.pro-img li:first-child+li+li+li img{width:108px;margin-top:40px;}
+.pro-img li:first-child{margin-left:0;background:#95a3e7;}
+.pro-img li:first-child+li{background:#79bdea;}
+.pro-img li:first-child+li+li{background:#96a4e8;}
+.pro-img li:first-child+li+li+li{float:right;background:#4ccab6;}
+
+/*推荐产品*/
+.recommond{margin-top:30px;}
+.recommond li{float:left;width:400px;padding:17px 0;text-align: center;border-bottom:2px solid #b7b7b7;}
+.recommond li a{font:20px'微软雅黑';color:#000;}
+.recommond li:hover,.recommond .on{border-bottom:2px solid #ef2323;background:url(../img/index_dot.png) no-repeat bottom center;}
+
+.pro-recommond{margin-top:32px;}
+.pro-recommond li{float:left;width:258px;height:186px;border:1px solid #b7b7b7;margin-left:53px;}
+.pro-recommond li .pro-name{padding:15px 0 0 10px;font:16px'微软雅黑';color:#000;}
+.pro-recommond li .pro-situation{padding:0 0 0 10px;font:14px'微软雅黑';color:#c4c4c4;}
+.pro-recommond li .pro-price{padding:10px 0 0 10px;font:16px'微软雅黑';color:#ef2323;}
+.pro-recommond li:first-child{margin-left:0;}
+.pro-recommond li:first-child img{cursor:pointer;width:169px;margin:-40px 0 0 74px;}
+.pro-recommond li:first-child+li img{cursor:pointer;width:108px;margin:-36px 0 0 120px;}
+.pro-recommond li:first-child+li+li img{cursor:pointer;width:149px;margin:-35px 0 0 86px;}
+.pro-recommond li:first-child+li+li+li{float:right;}
+.pro-recommond li:first-child+li+li+li img{cursor:pointer;width:132px;margin:0 0 0 105px;}
+/*推荐产品 end*/
+.title{margin-top:58px;font:20px'微软雅黑';color:#2d2d2d;}
+.title b{font:22px'微软雅黑';color:#000;}
+
+/*pro-new*/
+.pro-new{margin-top:16px;}
+.pro-new li{float:left;width:220px;height:208px;border:1px solid #d2d7d7;margin:0 0 22px 22px;}
+.pro-new li:first-child+li{text-align:center;width:466px;height:208px;background:#23d5ef;}
+.pro-new li:first-child+li img{margin:22px 10px 0;}
+.pro-new li:first-child+li h4{margin-top:4px;display:inline-block;padding:7px 0;width:191px;font:16px'微软雅黑';color:#fff;background:#ef2323;}
+.pro-new li:first-child+li .slogan{font:14px'微软雅黑';color:#fff;}
+.pro-new li h4{margin:16px 0 0 9px;font:16px'微软雅黑';color:#000;}
+.pro-new li .slogan{margin:4px 0 0 9px;font:14px'微软雅黑';color:#b7b7b7;}
+.pro-new li .new-price{margin:9px 0 0 9px;font:16px'微软雅黑';color:#ef2323;}
+.pro-new li:first-child img{margin:-62px 0 0 136px;}
+.pro-new li:first-child{margin:0 0 22px 0;}
+.pro-new li:first-child+li+li img{margin:-11px 0 0 114px;}
+.pro-new li:first-child+li+li+li img{margin:-30px 0 0 126px;}
+.pro-new li:first-child+li+li+li+li img{margin:-22px 0 0 114px;}
+.pro-new li:first-child+li+li+li+li{margin:0 0 22px 0;}
+.pro-new li:first-child+li+li+li+li+li img{margin:-18px 0 0 66px;}
+.pro-new li:first-child+li+li+li+li+li+li img{margin:-77px 0 0 134px;}
+.pro-new li:first-child+li+li+li+li+li+li+li img{margin:-44px 0 0 95px;}
+.pro-new li:first-child+li+li+li+li+li+li+li+li img{margin:-40px 0 0 88px;}
+/*pro-new end*/
+
+/*家用电器*/
+.household-appliances{margin-top:20px;}
+.household-left{float:left;width:392px;border-bottom:1px solid #b7b7b7;border-left:1px solid #b7b7b7;border-right:1px solid #b7b7b7;}
+.household-left .pro-propaganda{width:396px;height:258px;background:url(../img/household_01.png) no-repeat left -2px;}
+.household-left .pro-propaganda h5{padding:50px 0 0 18px;font:30px'微软雅黑';color:#ef2323;}
+.household-left .pro-propaganda div{margin:8px 0 0 18px;padding:6px 12px;display: inline-block;
+                                    line-height: 30px;border-radius:5px;text-align:center;
+                                     font:20px'微软雅黑';color:#fff;background:#ef2323; }
+.household-left .pro-propaganda img{margin-top:-86px;}
+.household-left .pro-propaganda .kettle{margin-left:186px;}
+.household-left .category{width:392px;background:#fbe2e2;}
+.household-left .category li{float:left;padding:10px 0 10px 36px;margin:0 28px;}
+.household-left .category li a{color:#ef2323;}
+.household-left .category li:first-child{background:url(../img/household_icon01.png) no-repeat left center;}
+.household-left .category li:first-child+li{background:url(../img/household_icon02.png) no-repeat left center;}
+.household-left .category li:first-child+li+li{background:url(../img/household_icon03.png) no-repeat left center;}
+.household-left .category li:first-child+li+li+li{background:url(../img/household_icon04.png) no-repeat left center;}
+.household-left .product-name-list{width:392px;border-bottom:1px solid #b7b7b7;padding:0 0 20px;}
+.household-left .product-name-list li{float:left;margin:0 25px;}
+.household-left .product-name-list li dl dd{margin-top:10px;}
+.pro-show{margin:10px 0 20px;}
+.pro-show .pro-show-name{margin-left:26px;font:20px'微软雅黑';color:#000;}
+.pro-show .slogan{margin-left:26px;font:16px'微软雅黑';color:#ef2323;}
+.pro-show img{margin:-14px 0 0 208px;}
+
+.household-appliances .household-mid{float:left;width:420px;border:1px solid #b7b7b7;margin-top:3px;border-left:none;}
+.household-mid .pro-show img{margin:60px 0 60px 126px;}
+.household-mid .pro-show {margin:10px 0 0;}
+.household-mid .dot{border-bottom:1px solid #b7b7b7;}
+.household-mid .dot .pro-banner{margin:0 auto 10px;width:70px;height:20px;background:url(../img/bj_icon.png) no-repeat;}
+.household-mid .dot .pro-banner li{float:left;margin:5px 4px;width:8px;height:8px;background:url(../img/pro_icon02.png) no-repeat center;}
+.household-mid .dot .pro-banner li:first-child{margin-left:14px;}
+.household-mid .dot .pro-banner .active{width:8px;height:8px;background:url(../img/pro_icon01.png) no-repeat center;}
+
+.household-mid .pro-show-mid{border-bottom:1px solid #b7b7b7;}
+.household-mid .pro-show-mid .pro-show img{margin:20px 0 15px 200px;}
+.household-mid .pro-show-bottom .pro-show img{margin:-22px 0 0 192px;}
+
+.household-appliances .household-right{margin-top:3px;float:left;width:384px;border-top:1px solid #b7b7b7;}
+.household-right .right-show li{margin:0 0;float:left;width:191px;border-right:1px solid #b7b7b7;border-bottom:1px solid #b7b7b7;}
+.household-right .right-show li .pro-show{margin:10px 0 5px;}
+.household-right .right-show li:first-child .pro-show img{margin:88px 0 0 35px;}
+.household-right .right-show li:first-child+li .pro-show img{margin:25px 0 0 118px;}
+.household-right .right-show li:first-child+li+li .pro-show img{margin:89px 0 0 97px;}
+.household-right .right-show li:first-child+li+li+li .pro-show img{margin:78px 0 0 50px;}
+/*家用电器  end*/
+
+/*生活电器*/
+.pro-life{margin-top:20px;}
+.pro-life .household-left{float:left;width:392px;border-bottom:1px solid #b7b7b7;border-left:1px solid #b7b7b7;border-right:1px solid #b7b7b7;}
+.pro-life .household-left .pro-propaganda{width:396px;height:288px;background:url(../img/life_01.png) no-repeat left -2px;}
+.pro-life .household-left .pro-propaganda h5{padding:50px 0 0 18px;font:30px'微软雅黑';color:#526ef4;}
+.pro-life .household-left .pro-propaganda div{background:#758af4; }
+.pro-life .household-left .pro-propaganda img{margin-top:-68px;}
+.pro-life .household-left .pro-propaganda .kettle{margin-left:136px;}
+
+.pro-life .household-left .category{width:392px;background:#e4e8fe;}
+.pro-life .household-left .category li{float:left;padding:18px 0 18px 36px;margin:0 23px;}
+.pro-life .household-left .category li a{color:#526ef4;}
+.pro-life .household-left .category li:first-child{background:url(../img/life_icon01.png) no-repeat left center;}
+.pro-life .household-left .category li:first-child+li{background:url(../img/life_icon02.png) no-repeat left center;}
+.pro-life .household-left .category li:first-child+li+li{background:url(../img/life_icon03.png) no-repeat left center;}
+
+.pro-life .household-left .product-name-list{width:392px;border-bottom:1px solid #b7b7b7;padding:0 0 20px;}
+.pro-life .household-left .product-name-list li{float:left;margin:0 21px;}
+.pro-life .household-left .product-name-list li dl dd{margin-top:10px;}
+
+.pro-life .pro-show{margin:10px 0 20px;}
+.pro-life .pro-show .pro-show-name{font:20px'微软雅黑';color:#000;}
+.pro-life .pro-show .slogan{font:16px'微软雅黑';color:#526ef4;}
+.pro-life .pro-show img{margin:-14px 0 0 184px;}
+
+.pro-life .household-mid{float:left;width:420px;border:1px solid #b7b7b7;margin-top:3px;border-left:none;}
+.pro-life .household-mid .pro-show img{margin:69px 0 30px 166px;}
+.pro-life .household-mid .pro-show {margin:10px 0 0;}
+
+.pro-life .household-mid .pro-show-mid{border-bottom:1px solid #b7b7b7;}
+.pro-life .household-mid .pro-show-mid .pro-show img{margin:-37px 0 15px 240px;}
+.pro-life .household-mid .pro-show-bottom .pro-show img{margin:-50px 0 0 252px;}
+
+.pro-life .household-right{margin-top:3px;float:left;width:384px;border-top:1px solid #b7b7b7;}
+.pro-life .household-right .right-show li .pro-show{margin:10px 0 5px;}
+.pro-life .household-right .right-show li:first-child .pro-show img{margin:81px 0 30px 28px;}
+.pro-life .household-right .right-show li:first-child+li .pro-show img{margin:80px 0 37px 32px;}
+.pro-life .household-right .right-show li:first-child+li+li .pro-show img{margin:126px 0 10px 8px;}
+.pro-life .household-right .right-show li:first-child+li+li+li .pro-show img{margin:32px 0 0 32px;}
+/*生活电器  end*/
+
+/*手机通讯*/
+.pro-mobile{margin-top:20px;}
+.pro-mobile .household-left{float:left;width:392px;border-bottom:1px solid #b7b7b7;border-left:1px solid #b7b7b7;border-right:1px solid #b7b7b7;}
+.pro-mobile .household-left .pro-propaganda{width:396px;height:288px;background:url(../img/mobile_01.png) no-repeat left -2px;}
+.pro-mobile .household-left .pro-propaganda h5{padding:50px 0 0 18px;font:30px'微软雅黑';color:#096c81;}
+.pro-mobile .household-left .pro-propaganda div{background:#13d0f7; }
+.pro-mobile .household-left .pro-propaganda img{margin-top:-76px;}
+.pro-mobile .household-left .pro-propaganda .kettle{margin-left:192px;}
+
+.pro-mobile .household-left .category{width:392px;background:#eaf8fb;}
+.pro-mobile .household-left .category li{float:left;padding:18px 0 18px 36px;margin:0 18px;}
+.pro-mobile .household-left .category li a{color:#096c81;}
+.pro-mobile .household-left .category li:first-child{background:url(../img/mobile_icon01.png) no-repeat left center;}
+.pro-mobile .household-left .category li:first-child+li{background:url(../img/mobile_icon02.png) no-repeat left center;}
+.pro-mobile .household-left .category li:first-child+li+li{background:url(../img/mobile_icon03.png) no-repeat left center;}
+
+.pro-mobile .household-left .product-name-list{width:392px;border-bottom:1px solid #b7b7b7;padding:0 0 20px;}
+.pro-mobile .household-left .product-name-list li{float:left;margin:0 25px;}
+.pro-mobile .household-left .product-name-list li dl dd{margin-top:10px;}
+
+.pro-mobile .pro-show{margin:10px 0 20px;}
+.pro-mobile .pro-show .pro-show-name{font:20px'微软雅黑';color:#000;}
+.pro-mobile .pro-show .slogan{font:16px'微软雅黑';color:#5c909f;}
+.pro-mobile .pro-show img{margin:-40px 0 0 252px;}
+
+.pro-mobile .household-mid{float:left;width:420px;border:1px solid #b7b7b7;margin-top:3px;border-left:none;}
+.pro-mobile .household-mid .pro-show img{margin:5px 0 20px 166px;}
+.pro-mobile .household-mid .pro-show {margin:10px 0 0;}
+
+.pro-mobile .household-mid .pro-show-mid{border-bottom:1px solid #b7b7b7;}
+.pro-mobile .household-mid .pro-show-mid .pro-show img{margin:-52px 0 4px 240px;}
+.pro-mobile .household-mid .pro-show-bottom .pro-show img{margin:-40px 0 7px 216px;}
+
+.pro-mobile .household-right{margin-top:3px;float:left;width:384px;border-top:1px solid #b7b7b7;}
+.pro-mobile .household-right .right-show li .pro-show{margin:10px 0 5px;}
+.pro-mobile .household-right .right-show li:first-child .pro-show img{margin:40px 0 10px 16px;}
+.pro-mobile .household-right .right-show li:first-child+li .pro-show img{margin:64px 0 12px 15px;}
+.pro-mobile .household-right .right-show li:first-child+li+li .pro-show img{margin:67px 0 10px 19px;}
+.pro-mobile .household-right .right-show li:first-child+li+li+li .pro-show img{margin:68px 0 10px 21px;}
+/*手机通讯  end*/
+
+/*电脑数码*/
+.computer-digital{margin-top:20px;}
+.computer-digital .household-left{float:left;width:392px;border-bottom:1px solid #b7b7b7;border-left:1px solid #b7b7b7;border-right:1px solid #b7b7b7;}
+.computer-digital .household-left .pro-propaganda{width:396px;height:288px;background:url(../img/computer_01.png) no-repeat left -2px;}
+.computer-digital .household-left .pro-propaganda h5{padding:50px 0 0 18px;font:30px'微软雅黑';color:#00592c;}
+.computer-digital .household-left .pro-propaganda div{background:#21ee85;color:#00592c; }
+.computer-digital .household-left .pro-propaganda img{margin-top:-30px;}
+.computer-digital .household-left .pro-propaganda .kettle{margin-left:112px;}
+
+.computer-digital .household-left .category{width:392px;background:#cafbe2;}
+.computer-digital .household-left .category li{float:left;padding:18px 0 18px 36px;margin:0 18px;}
+.computer-digital .household-left .category li a{color:#00592c;}
+.computer-digital .household-left .category li:first-child{background:url(../img/computer_icon01.png) no-repeat left center;}
+.computer-digital .household-left .category li:first-child+li{background:url(../img/computer_icon02.png) no-repeat left center;}
+.computer-digital .household-left .category li:first-child+li+li{background:url(../img/computer_icon03.png) no-repeat left center;}
+
+.computer-digital .household-left .product-name-list{width:392px;border-bottom:1px solid #b7b7b7;padding:0 0 20px;}
+.computer-digital .household-left .product-name-list li{float:left;margin:0 18px;}
+.computer-digital .household-left .product-name-list li dl dd{margin-top:10px;}
+
+.computer-digital .pro-show{margin:10px 0 20px;}
+.computer-digital .pro-show .pro-show-name{font:20px'微软雅黑';color:#000;}
+.computer-digital .pro-show .slogan{font:16px'微软雅黑';color:#00592c;}
+.computer-digital .pro-show img{margin:-49px 0 -14px 152px;}
+
+.computer-digital .household-mid{float:left;width:420px;border:1px solid #b7b7b7;margin-top:3px;border-left:none;}
+.computer-digital .household-mid .pro-show img{margin:30px 0 38px 100px;}
+.computer-digital .household-mid .pro-show {margin:10px 0 0;}
+
+.computer-digital .household-mid .pro-show-mid{border-bottom:1px solid #b7b7b7;}
+.computer-digital .household-mid .pro-show-mid .pro-show img{margin:-31px 0 4px 240px;}
+.computer-digital .household-mid .pro-show-bottom .pro-show img{margin:-25px 0 18px 216px;}
+
+.computer-digital .household-right{margin-top:3px;float:left;width:384px;border-top:1px solid #b7b7b7;}
+.computer-digital .household-right .right-show li .pro-show{margin:10px 0 5px;}
+.computer-digital .household-right .right-show li:first-child .pro-show img{margin:110px 0 36px 11px;}
+.computer-digital .household-right .right-show li:first-child+li .pro-show img{margin:119px 0 37px 4px;}
+.computer-digital .household-right .right-show li:first-child+li+li .pro-show img{margin:92px 0 10px 8px;}
+.computer-digital .household-right .right-show li:first-child+li+li+li .pro-show img{margin:84px 0 30px 17px;}
+/*电脑数码  end*/

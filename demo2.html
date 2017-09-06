@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+             margin:0;
+             padding:0;
+             list-style: none;
+        }
+        .clearfix:after{
+            content:'';
+            display:block;
+            width:0;
+            height:0;
+            visibility: hidden;
+            clear: both;
+        }
+        .list{
+            width:970px;
+            margin:100px auto;
+        }
+        .list li{
+            width:25%;
+            height:8px;
+            background:#ccc;
+            float:left;
+            position:relative;
+        }
+        .list li:before{
+            content:'拍下商品';
+            font:16px/20px  '微软阿黑';
+            display: inline-block;
+            position:absolute;
+            padding-bottom:20px;
+            bottom:100%;
+            left:0;
+        }
+        .list li:after{
+            content:'√';
+            display:block;
+            width:10px;
+            height:10px;
+            text-align:center;
+            padding:8px;
+            border-radius: 50%;
+            background:#ccc url("img/dote.png") no-repeat center;
+            font:10px/10px '微软雅黑';
+            color:#fff;
+            position:absolute;
+            top:-9px;
+            left:-9px;
+        }
+        .list li:first-child+li:after{
+
+        }
+    </style>
+</head>
+<body>
+  <ul class="list clearfix">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+  </ul>
+</body>
+</html>

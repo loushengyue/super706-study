@@ -1,0 +1,4 @@
+.progress{overflow:hidden;margin:70px 0 0  118px;}
+.progress li{width:106px;float:left;margin-left:192px;}
+.progress li:first-child{margin-left:0;}
+.progress li a{font:14px'微软雅黑';color:#121212;letter-spacing:3px;}

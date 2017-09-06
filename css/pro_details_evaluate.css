@@ -1,0 +1,141 @@
+.showcase {
+  padding-bottom: 70px;
+}
+.commodity-details {
+  overflow: hidden;
+}
+.evaluate-sum {
+  overflow: hidden;
+  width: 866px;
+  height: 58px;
+  background-color: #f7f7f7;
+  border: 1px solid #e9e9e9;
+  float: right;
+}
+.evaluate-sum .radio-box {
+  float: left;
+  height: 100%;
+  width: 550px;
+}
+.evaluate-sum .radio-box .radio-item {
+  float: left;
+  height: 58px;
+  line-height: 58px;
+  padding-left: 30px;
+}
+.evaluate-sum .radio-box .radio-item input {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 4px;
+}
+.evaluate-sum .radio-box .radio-item span {
+  padding-left: 14px;
+  font-size: 20px;
+}
+.evaluate-sum .radio-box .radio-item span i {
+  font-style: normal;
+}
+.evaluate-sum .checked-box {
+  width: 205px;
+  float: right;
+  line-height: 58px;
+  font-size: 14px;
+}
+.evaluate-sum .checked-box input {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 5px;
+}
+.evaluate-sum .checked-box span {
+  padding-left: 14px;
+  padding-right: 8px;
+}
+.evaluate-sum .checked-box select {
+  width: 86px;
+  height: 24px;
+}
+.pro-list {
+  width: 100%;
+  padding-top: 70px;
+  padding-left: 42px;
+}
+.pro-list .item {
+  overflow: hidden;
+  border-bottom: 1px solid #8e8e8e;
+}
+.pro-list .item .item-detail {
+  width: 632px;
+  float: left;
+}
+.pro-list .item .item-detail .item-des {
+  width: 100%;
+  overflow: hidden;
+}
+.pro-list .item .item-detail .item-des div {
+  float: left;
+  text-align: left;
+  font-size: 14px;
+}
+.pro-list .item .item-detail .item-des .item-scr {
+  width: 440px;
+}
+.pro-list .item .item-detail .item-des .item-scr p {
+  text-align: justify;
+  padding: 15px 0;
+  line-height: 20px;
+}
+.pro-list .item .item-detail .item-des .item-type {
+  padding-left: 45px;
+  padding-top: 15px;
+  width: 145px;
+}
+.pro-list .item .item-detail .item-des .item-type p {
+  line-height: 26px;
+}
+.pro-list .item .item-detail .item-img {
+  text-align: left;
+}
+.pro-list .item .item-detail .item-img img {
+  width: 76px;
+  height: 76px;
+  margin-right: 15px;
+  border: 1px solid grey;
+  padding: 4px;
+}
+.pro-list .item .item-detail .item-time {
+  text-align: left;
+}
+.pro-list .item .item-detail .item-time span {
+  color: #b7b7b7;
+  font-size: 14px;
+  line-height: 32px;
+}
+.pro-list .item .item-user {
+  width: 205px;
+  float: right;
+  padding: 15px 0;
+}
+.pro-list .item .item-user .use-head {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 4px;
+  position: relative;
+}
+.pro-list .item .item-user .use-head img {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+}
+.pro-list .item .item-user .use-nickname {
+  width: 100%;
+  font-size: 14px;
+  color: #2d2d2d;
+  text-align: left;
+  line-height: 32px;
+}

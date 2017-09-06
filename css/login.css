@@ -1,0 +1,28 @@
+.login{margin-top:40px;width:1200px;background:#fdb3b3;}
+.login .pro-img{float:left;}
+.login .pro-img img{margin:120px 0 190px 54px;}
+.login .propaganda{margin:140px 0 0 26px;float:left;text-align:center;width:369px;height:272px;background:url(../img/login_img_02.png) no-repeat center;}
+.login .propaganda li{margin-top:25px;}
+.login .propaganda li:first-child{margin-top:48px;color:#f2f859;font:43px/0'微软雅黑';font-weight:bold;}
+.login .propaganda li:first-child+li{color:#fff;font-size:36px;font-family:'微软雅黑';}
+.login .propaganda li:first-child+li span{color:#fff;font-size:50px;font-family:'微软雅黑';font-weight:bold;}
+.login .propaganda li:first-child+li+li{display:inline-block;color:#fff;font-size:23px;font-family:'微软雅黑';padding:7px 54px;border:1px solid #fff;}
+
+.login-page{width:518px;float:left;background:#fff;margin:58px 0 0 46px;}
+.login-page .page-title{margin:16px 0 0 43px;}
+.login-page .page-title .page-left{float:left;padding:16px 44px;font-size:18px;font-family:'微软雅黑';color:#ef2323;border-right:1px solid #e0e0e0;border-top:1px solid #ef2323;}
+.login-page .page-title .page-right{float:left;padding:16px 60px;font-size:18px;font-family:'微软雅黑';}
+.login-page ul{margin:0 43px;}
+.login-page ul li{width:377px;height:52px;line-height:52px;border:1px solid #b7b7b7;padding-left:58px;}
+.login-page ul li input{width:300px;height:50px;line-height:52px;border:none;font:16px'微软雅黑';color:#dadada;}
+.login-page ul li:first-child{background:url(../img/login_img_03.png) no-repeat 0 center;}
+.login-page ul li:first-child+li{margin-top:24px;background:url(../img/login_img_04.png) no-repeat 0 center;}
+.login-page ul li:first-child+li+li{margin-top:20px;border:none;padding:0 0;width:436px;}
+.login-page ul li:first-child+li+li label{float:left;}
+.login-page ul li:first-child+li+li input{width:12px;height:12px;}
+.login-page ul li:first-child+li+li span{margin-left:7px;font:14px'微软雅黑';}
+.login-page ul li:first-child+li+li p{float:right;}
+.login-page ul li:first-child+li+li p a:first-of-type{padding:0 16px;font:14px'微软雅黑';border-right:1px solid #e0e0e0;}
+.login-page ul li:first-child+li+li p a:first-of-type+a{padding-left:16px;font:14px'微软雅黑';color:#7286f5;}
+.login-page ul li:first-child+li+li+li{border:none;padding:0 0;width:436px;margin:20px 0 110px;}
+.login-page ul li:first-child+li+li+li button{display:inline-block;height:56px;font:18px'微软雅黑';color:#fff;background:#ef2323;width:436px;border:none;}

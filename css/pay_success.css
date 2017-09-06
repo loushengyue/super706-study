@@ -1,0 +1,17 @@
+.pay-success{margin:28px auto 0;padding:78px 0;background:#f0f0f0;}
+.pay-success h3{margin-left:36%;display:inline-block;font:30px'微软雅黑';color:#121212;padding:6px 60px;
+    background:url(../img/pay_success_01.png) no-repeat left center;}
+.pay-success p{margin-left:41.5%;font:14px'微软雅黑';color:#2d2d2d;}
+.pay-success p span:nth-of-type(1){color:#ef2323;}
+.pay-success p span:nth-of-type(2){color:#fff;margin:0 13px;}
+.failure-select{margin:20px 0 0 41.5%;}
+.failure-select li{float:left;margin-right:44px;}
+.failure-select li a{display:inline-block;text-align:center;font:16px'微软雅黑';color:#fff;
+    width:116px;height:28px;line-height:28px;background:#b7b7b7;
+    border-radius:9px;border:1px solid #8d8d8d;}
+.failure-select li:first-child+li{margin-right:33px;}
+.failure-select li:first-child+li+li a{border:none;background:none;font:14px'微软雅黑';color:#526ef4;line-height:28px;}
+.return{margin:27px 0 0 52%;}
+.return a{display:inline-block;text-align:center;font:16px'微软雅黑';color:#fff;
+    width:116px;height:28px;line-height:28px;background:#b7b7b7;
+    border-radius:9px;border:1px solid #8d8d8d;}

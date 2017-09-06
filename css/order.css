@@ -1,0 +1,60 @@
+.title{margin:16px 0;}
+.title p{font:14px'微软雅黑';color:#2d2d2d;}
+.title p a:hover{color:#f81010;}
+.left-nav{float:left;padding:12px 10px 0;border:1px solid #b7b7b7;width:182px;}
+.left-nav ul li dl dt{font:18px'微软雅黑';color:#2d2d2d;padding:4px 0 6px 32px;border-bottom:1px solid #b7b7b7;
+    background:url(../img/user_icon_01.png) no-repeat left center;}
+.left-nav ul li:first-child+li dl dt{margin-top:32px;background:url(../img/user_icon_02.png) no-repeat left center;}
+.left-nav ul li:first-child+li+li dl dt{margin-top:32px;background:url(../img/user_icon_03.png) no-repeat left center;}
+.left-nav dl dd{font:14px/40px'微软雅黑';color:#2d2d2d;}
+.main-right{float:left;margin-left:22px;}
+.main-right .nav-title{/*width:974px;*/border-top:1px solid #b7b7b7;}
+.main-right .nav-title li{float:left;padding:13px 68px;border-bottom:2px solid #b7b7b7;}
+.main-right .nav-title li:first-child{padding:13px 71px;}
+.main-right .nav-title li a{font:18px'微软雅黑';color:#2d2d2d;}
+.main-right .nav-title li:hover,.main-right .nav-title .on{border-bottom:2px solid #ef2323;}
+
+.main-right .order-title{padding:23px 55px;background:#f5f5f5;margin:8px 0 32px;}
+.main-right .order-title li{float:left;}
+.main-right .order-title li:first-child+li{margin-left:280px;}
+.main-right .order-title li:first-child+li+li{margin-left:66px;}
+.main-right .order-title li:first-child+li+li+li{margin-left:44px;}
+.main-right .order-title li:first-child+li+li+li+li{margin-left:52px;}
+.main-right .order-title li:first-child+li+li+li+li+li{margin-left:94px;}
+.main-right .order-title li a{font:16px'微软雅黑';color:#2d2d2d;}
+.main-right .order-title li:first-child a{ padding-right:16px;background:url(../img/order_01.png) no-repeat right center;}
+.pro-buy{border:1px solid #b7b7b7;margin-bottom:18px;}
+.pro-buy .order-time{background:#ebebeb;border-bottom:1px solid #b7b7b7;}
+.pro-buy .order-time li{float:left;font:18px'微软雅黑';color:#2d2d2d;padding:13px 14px;}
+.pro-buy .order-time li span{margin-left:46px;font:18px'微软雅黑';color:#b7b7b7;}
+.pro-buy .pro-order-detail{padding:22px 12px;}
+.pro-buy .pro-order-detail li{float:left;}
+.pro-buy .pro-order-detail li:first-child{text-align:center;width:166px;height:168px;line-height:168px;border:1px solid #b7b7b7;}
+.pro-buy .pro-order-detail li:first-child a{display:inline-block;}
+.pro-buy .pro-order-detail li:first-child a img{margin:12px 0 11px 18px;display:inline-block;cursor:pointer;}
+.pro-buy .pro-order-detail li:first-child+li{margin-left:16px;width:188px;font:14px/29px'微软雅黑';color:#2d2d2d;}
+.pro-buy .pro-order-detail li:first-child+li+li{margin-left:52px;font:14px/29px'微软雅黑';color:#2d2d2d;}
+.pro-buy .pro-order-detail li:first-child+li+li+li{margin-left:58px;}
+.pro-buy .pro-order-detail li:first-child+li+li+li input{border:none;width:40px;text-align:center;height:20px;font:14px'微软雅黑';color:#2d2d2d;}
+.pro-buy .pro-order-detail li:first-child+li+li+li+li{margin:4px 0 0 25px;height:20px;font:14px'微软雅黑';color:#ef2323;}
+.pro-buy .pro-order-detail li:first-child+li+li+li+li+li{text-align:center;margin:4px 0 0 42px;}
+.pro-buy .pro-order-detail li:first-child+li+li+li+li+li .off-stocks{font:14px'微软雅黑';color:#b7b7b7;}
+.pro-buy .pro-order-detail li:first-child+li+li+li+li+li a{font:14px'微软雅黑';color:#2d2d2d;}
+.pro-buy .pro-order-detail li:first-child+li+li+li+li+li+li{margin:4px 0 0 46px;}
+.pro-buy .pro-order-detail li:first-child+li+li+li+li+li+li .buy-now{display:inline-block;text-align:center;width:96px;height:36px;
+                      font:14px/35px'微软雅黑';background:#ef2323;color:#fff;}
+.pro-buy .pro-order-detail li:first-child+li+li+li+li+li+li .cancel{font:14px/35px'微软雅黑';display:inline-block;color:#b7b7b7;}
+
+.page{margin:30px 0 0 14%;}
+.page li{margin-right:5px;float:left;padding:12px 14px;border:1px solid #b7b7b7;}
+.page li a{font:14px'微软雅黑';color:#b7b7b7;}
+.page li:hover,.page .on{background:#ef2323;}
+.page li:hover a,.page .on a{color:#fff;}
+.page li:first-child{margin-right:14px;}
+.page li:first-child+li+li+li+li+li+li+li{margin-right:0;}
+.page li:first-child+li+li+li+li+li+li+li+li{border:none;margin-right:0;padding:0 7px;height:48px;background:url(../img/page_03.png) no-repeat center center;}
+.page li:first-child+li+li+li+li+li+li+li+li+li a{padding-right:24px;background:url(../img/page_02.png) no-repeat right center;}
+.page li:first-child a{padding-left:24px;background:url(../img/page_01.png) no-repeat left center;}
+
+
+
