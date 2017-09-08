@@ -1,5 +1,4 @@
-$(function () {
-
+$(function () {  
     var CreateModule = function (option, n) {
         this._arr = [];
         this._id = option.id;
@@ -10,6 +9,7 @@ $(function () {
         }
         return this._arr;
     };
+
     CreateModule.prototype.cloneObj = function (obj) {
         if (typeof obj != 'object') {
             return obj;
@@ -21,44 +21,51 @@ $(function () {
         return this.newObj;
     };
 
-    var option = {
-        id : 'HisensTV',
-        checked : true,
-        imgSrc : 'img/shop_cart_01.png',
-        title : '1Hisense/海信LED234567网络高清 内置无线网',
-        support : '支持7天无理由退货',
-        typle : ['颜色：黑色', '功率：200w'],
-        price : '399.00',
-        count : '1',
-        subtotal : '399.00'
-    };
-    var option2 = {
-        id : 'TCLTV',
-        checked : true,
-        imgSrc : 'img/shop_cart_01.png',
-        title : '1Hisense/海信LED234567网络高清 内置无线网',
-        support : '支持7天无理由退货',
-        typle : ['颜色：黑色', '功率：200w'],
-        price : '399.00',
-        count : '1',
-        subtotal : '399.00'
-    };
+    var shopCartDatas1 = autoCreateModule (option_HisensTV, 10);
+    var commonDatasGuide = autoCreateModule (common_datas_guide, 1);
+    var topNavDatas = autoCreateModule (option_topNavDatas, 1);
+    var searchNavDatas = autoCreateModule (option_searchNavDatas, 1);
+    var subMeunDatas = autoCreateModule (option_subMeun, 1);
+    var headerNavDatas = autoCreateModule (option_headerNav, 1);
 
-    var goods = new CreateModule (option, 10);
-    var goods2 = new CreateModule (option2, 10);
 
     if (!window.localStorage.getItem('isCreateGoods')) {
         window.localStorage.clear();
         window.localStorage.setItem('isCreateGoods', 'true');
-        createStorage (goods);
-        createStorage (goods2);
+        createStorage (shopCartDatas1);
+        createStorage (commonDatasGuide);
+        createStorage (topNavDatas);
+        createStorage (searchNavDatas);
+        createStorage (subMeunDatas);
+        createStorage (headerNavDatas);
+
+        console.log('New localStorage msg has been created!')
     }
+
+
+
+
+
+
 
     function createStorage (arr) {
         for (var i = 0, l = arr.length; i < l; i++) {
             var key = arr[i].id;
             var str = JSON.stringify(arr[i]);
             window.localStorage.setItem(key, str)
+        }
+    }
+
+    function autoCreateModule (options, times = 1) {
+        if (typeof options == 'object') {
+            return new CreateModule (options, times);
+        } else if (typeof options == 'array') {
+           var _res = [];
+           for (var i = 0, l = options.length; i < l; i++) {
+               var _opt = new CreateModule (options[i], 1);
+               _res.push(_opt[0]);
+           }
+           return _res; 
         }
     }
 });

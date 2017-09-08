@@ -13,8 +13,8 @@
 .title{margin:16px 0;}
 .title p{font:14px'微软雅黑';color:#2d2d2d;}
 .title p a:hover{color:#f81010;}
-.left-nav{float:left;padding:12px 10px 0;border:1px solid #b7b7b7;width:182px;}
-.left-nav ul li dl dt{font:18px'微软雅黑';color:#2d2d2d;padding:4px 0 6px 32px;border-bottom:1px solid #b7b7b7;
+.main .left-nav{float:left;padding:12px 10px 0;border:1px solid #b7b7b7;width:182px;}
+.main .left-nav ul li dl dt{font:18px'微软雅黑';color:#2d2d2d;padding:4px 0 6px 32px;border-bottom:1px solid #b7b7b7;
                   background:url(../img/user_icon_01.png) no-repeat left center;}
 .left-nav ul li:first-child+li dl dt{margin-top:32px;background:url(../img/user_icon_02.png) no-repeat left center;}
 .left-nav ul li:first-child+li+li dl dt{margin-top:32px;background:url(../img/user_icon_03.png) no-repeat left center;}
